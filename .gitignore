@@ -3,6 +3,8 @@ build/
 dist/
 .env
 .env.local
+client/.env
+server/.env
 *.log
 *.err
 npm-debug.log*

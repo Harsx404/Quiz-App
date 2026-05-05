@@ -5,7 +5,7 @@ import TeacherDashboard from "./components/TeacherDashboard";
 import QuizRoom from "./components/QuizRoom";
 import Results from "./components/Results";
 
-const socket = io("http://localhost:5000", {
+const socket = io(process.env.REACT_APP_SERVER_URL || "http://localhost:5000", {
   autoConnect: true,
 });
 
